@@ -1,0 +1,43 @@
+$date
+	Fri Nov 08 13:31:38 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Test_InstructionMemory $end
+$var wire 16 ! instruction [15:0] $end
+$var reg 16 " address [15:0] $end
+$scope module uut $end
+$var wire 16 # address [15:0] $end
+$var reg 16 $ instruction [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 $
+b0 #
+b0 "
+b1 !
+$end
+#10000
+b10 !
+b10 $
+b1 "
+b1 #
+#20000
+b11 !
+b11 $
+b10 "
+b10 #
+#30000
+b100 !
+b100 $
+b11 "
+b11 #

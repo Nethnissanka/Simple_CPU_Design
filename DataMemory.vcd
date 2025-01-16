@@ -1,0 +1,58 @@
+$date
+	Fri Nov 08 13:28:16 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Test_DataMemory $end
+$var wire 16 ! readData [15:0] $end
+$var reg 8 " address [7:0] $end
+$var reg 1 # memRead $end
+$var reg 1 $ memWrite $end
+$var reg 16 % writeData [15:0] $end
+$scope module uut $end
+$var wire 8 & address [7:0] $end
+$var wire 1 # memRead $end
+$var wire 1 $ memWrite $end
+$var wire 16 ' writeData [15:0] $end
+$var reg 16 ( readData [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx (
+b1 '
+b0 &
+b1 %
+1$
+x#
+b0 "
+bx !
+$end
+#10
+b10 %
+b10 '
+b1 "
+b1 &
+#20
+b1 !
+b1 (
+b0 "
+b0 &
+1#
+0$
+#30
+0#
+#40
+bx !
+bx (
+b1 "
+b1 &
+1#
